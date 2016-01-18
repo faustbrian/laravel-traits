@@ -3,7 +3,7 @@
     "description": "Traits for Laravel 5.",
     "require": {
         "php": ">=5.5.9",
-        "draperstudio/support": "~1.0"
+        "draperstudio/support": "^1.0"
     },
     "suggest": {
         "danielstjules/stringy": "Require ~2.2 for the HasSlug Trait",
