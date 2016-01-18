@@ -1,0 +1,18 @@
+{
+    "name": "draperstudio/laravel-traits",
+    "description": "Traits for Laravel 5.",
+    "require": {
+        "php": ">=5.5.9",
+        "draperstudio/support": "~1.0"
+    },
+    "suggest": {
+        "danielstjules/stringy": "Require ~2.2 for the HasSlug Trait",
+        "hashids/hashids": "Require ~1.0 for the HasHashid Trait",
+        "ramsey/uuid": "Require ~3.1 for the HasUuid Trait"
+    },
+    "autoload": {
+        "psr-4": {
+            "DraperStudio\\Traits\\": "src/"
+        }
+    }
+}
