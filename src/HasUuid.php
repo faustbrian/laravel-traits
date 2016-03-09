@@ -25,9 +25,6 @@ trait HasUuid
      */
     protected static $uuidColumn = 'uuid';
 
-    /**
-     *
-     */
     public static function bootHasUuid()
     {
         static::creating(function ($model) {
