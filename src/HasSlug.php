@@ -24,15 +24,12 @@ trait HasSlug
      * @var string
      */
     protected static $slugColumn = 'slug';
-    
+
     /**
      * @var string
      */
     protected static $slugField = 'title';
 
-    /**
-     *
-     */
     public static function bootHasSlug()
     {
         static::saving(function ($model) {
