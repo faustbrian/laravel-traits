@@ -1,0 +1,55 @@
+{
+    "name": "faustbrian/laravel-traits",
+    "description": "Traits for Laravel 5.",
+    "keywords": [
+        "laravel",
+        "framework",
+        "Laravel-traits",
+        "Laravel Traits",
+        "Brian Faust",
+        "faustbrian"
+    ],
+    "license": "MIT",
+    "authors": [{
+        "name": "Brian Faust",
+        "email": "hello@brianfaust.de",
+        "homepage": "https://brianfaust.de",
+        "role": "Developer"
+    }],
+    "require": {
+        "php": "^5.6 || ^7.0",
+        "faustbrian/support": "^1.0"
+    },
+    "require-dev": {
+        "graham-campbell/testbench": "^3.1",
+        "mockery/mockery": "^0.9.4",
+        "phpunit/phpunit": "^5.0",
+        "scrutinizer/ocular": "~1.1",
+        "squizlabs/php_codesniffer": "~2.3"
+    },
+    "suggest": {
+        "danielstjules/stringy": "Require ~2.2 for the HasSlug Trait",
+        "hashids/hashids": "Require ~1.0 for the HasHashid Trait",
+        "ramsey/uuid": "Require ~3.1 for the HasUuid Trait"
+    },
+    "autoload": {
+        "psr-4": {
+            "BrianFaust\\Traits\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "BrianFaust\\Tests\\Traits\\": "tests"
+        }
+    },
+    "config": {
+        "preferred-install": "dist"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
