@@ -1,8 +1,5 @@
 <?php
 
-
-declare(strict_types=1);
-
 /*
  * This file is part of Laravel Traits.
  *
@@ -16,7 +13,7 @@ namespace BrianFaust\Tests\Traits;
 
 class ExampleTest extends AbstractTestCase
 {
-    public function testTrueIsTrue(): void
+    public function testTrueIsTrue()
     {
         $this->assertTrue(true);
     }
