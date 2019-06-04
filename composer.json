@@ -1,12 +1,12 @@
 {
-    "name": "faustbrian/laravel-traits",
+    "name": "artisanry/traits",
     "description": "Traits for Laravel 5.",
-    "keywords": ["laravel", "framework", "Laravel-traits", "Laravel Traits", "Brian Faust", "faustbrian"],
+    "keywords": ["laravel", "framework", "Laravel-traits", "Laravel Traits"],
     "license": "MIT",
     "authors": [{
         "name": "Brian Faust",
-        "email": "hello@brianfaust.me",
-        "homepage": "https://brianfaust.me"
+        "email": "hello@basecode.sh",
+        "homepage": "https://basecode.sh"
     }],
     "require": {
         "php": "^7.1",
@@ -24,12 +24,12 @@
     },
     "autoload": {
         "psr-4": {
-            "BrianFaust\\Traits\\": "src/"
+            "Artisanry\\Traits\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "BrianFaust\\Tests\\Traits\\": "tests"
+            "Artisanry\\Tests\\Traits\\": "tests"
         }
     },
     "config": {
